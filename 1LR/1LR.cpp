@@ -39,7 +39,7 @@ int main()
     {
         for (int j= 0; j< 4; j++)
         {
-            cout << "["<<i+1<<"]="<<mas[i][j]<<'\t';
+            cout << "["<<i+1<<"]["<<j+1<<"]="<<mas[i][j]<<'\t';
         }
         cout << endl;
     }
